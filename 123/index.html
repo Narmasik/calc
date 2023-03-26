@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="scripts.js"></script>
+  </head>
+  <body>
+  	<div class="calc">
+	    <h1 class="calc-tl">Калькулятор</br>чаевых</h1>
+	    <form class="formTipCalculator">
+	      <label
+	        ><span class="label_span">Сумма по счету</span>
+	        <input type="text" class="amountOnAccount" />
+	      </label>
+	      <label
+	        ><span class="label_span">Качество обслуживания</span>
+	        <select class="serviceQuality">
+	          <option value="0">Плохое (0%)</option>
+	          <option value="5">Нормальное (5%)</option>
+	          <option value="10">Хорошее (10%)</option>
+	          <option value="15">Отличное (15%)</option>
+	        </select>
+	      </label>
+	      <label
+	        ><span class="label_span">Количество человек</span>
+	        <input class="qtyPeople" type="text" />
+	      </label>
+	      <div class="btn">
+	      	<button type="submit" class="btn_submit">Посчитать</button>
+	      	<button type="reset" class="btn_reset">сбросить</button>
+	      </div>
+	    </form>
+	    <p>
+	      Чаевые:
+	      <span class="commonTip">0</span><span>&#8381;</span>
+	      <span class="moneyEvery">(с каждого)</span>
+	    </p>
+	    <p>
+	      Всего:
+	      <span class="countTipPerPerson">0</span><span>&#8381;</span>
+	      <span class="moneyEvery">(с каждого)</span>
+	    </p>
+    </div>
+    
+  </body>
+</html>

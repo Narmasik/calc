@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.calc {
+	width: 380px;
+	background: #360160;
+	padding-top: 34px;
+	padding-right: 60px;
+	padding-bottom: 105px;
+	padding-left: 60px;
+}
+.formTipCalculator {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.formTipCalculator label {
+	display: flex;
+	flex-direction: column;
+	width: 380px;
+}
+
+.btn {
+	display: flex;
+	flex-direction: row;
+}
+
+.btn_reset,
+.btn_submit {
+	width: 180px;
+}
+.btn_reset {
+	margin-left: 20px;
+}
+.calctl {
+	font-family: 'Roboto Condensed';
+	font-weight: 700;
+	font-size: 52px;
+	line-height: 47px;
+	color: #FFDC40;
+}
+
+.label_span {
+	font-family: 'Roboto Condensed';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	color: #FFFFFF;
+}
+
+.amountOnAccount {
+	background: #FFFFFF;
+	border: 2px solid #A4CEF4;
+	border-radius: 5px;
+}
+
+input[class="amountOnAccount"],
+select[class="serviceQuality"],
+input[class="qtyPeople"] {
+	font-family: 'Roboto Condensed';
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 26px;
+	padding: 11px 30px 13px 30px;
+	color: #000000;
+}
+.btn_submit {
+	background: #FFDC40;
+	border-radius: 15px;
+	padding: 19px 26px;
+}
+.btn_reset {
+	background: #7C7A7A;
+	border-radius: 15px;
+}
+button[type="submit"] {
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	border-color: transparent;
+}
+button[type="reset"] {
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	border-color: transparent;
+}
+
+p {
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 29px;
+
+	color: #FFFFFF;
+}
+
+.moneyEvery {
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: right;
+	color: #B6B6B6;
+}
